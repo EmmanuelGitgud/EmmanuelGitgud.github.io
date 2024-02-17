@@ -1,4 +1,4 @@
 function refreshPage(){
     window.location = window.location.href;
 }
-setInterval('refreshPage()', 1000)
+//setInterval('refreshPage()', 1000)

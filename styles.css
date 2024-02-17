@@ -1,5 +1,5 @@
-*{
-    background-color: #000000;
+body{
+    background-color: #202020;
     list-style-type: none;
 }
 @font-face {
@@ -11,12 +11,16 @@ html{
     font-family: Monocraft;
 }
 
-#nav-container{
-    padding: 16px;
+#nav-container a{
+    padding: 24px 24px 24px 24px;
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 #nav-container h1{
     display: inline;
+    font-size: 3rem;
 }
 
 #nav-bar{
@@ -25,11 +29,30 @@ html{
 
 #nav-bar li{
     display: inline;
-    font-size: larger;
+    font-size: 2rem;
     padding-left: 12px;
     padding-right: 12px;
 }
 
-#nav-bar li a{
-    
+#main-content{
+    margin: 24px 24px 24px 24px;
+    border-radius: 25px;
+    height: 750px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+#main-content h1{
+    color: #202020;
+    display: flex;
+}
+hr{
+    width: 90%;
+    height: 10px;
+    background-color:#202020;
+    border: none;
+    border-radius: 25px;
+}
+
+
