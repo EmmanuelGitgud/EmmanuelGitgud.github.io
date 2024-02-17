@@ -1,0 +1,35 @@
+*{
+    background-color: #000000;
+    list-style-type: none;
+}
+@font-face {
+    font-family: Monocraft;
+    src: url(font/Monocraft.ttf);
+}
+html{
+    color: #ffffff;
+    font-family: Monocraft;
+}
+
+#nav-container{
+    padding: 16px;
+}
+
+#nav-container h1{
+    display: inline;
+}
+
+#nav-bar{
+    float: right;
+}
+
+#nav-bar li{
+    display: inline;
+    font-size: larger;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#nav-bar li a{
+    
+}
