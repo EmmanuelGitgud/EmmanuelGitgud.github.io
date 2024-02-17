@@ -20,7 +20,7 @@ html{
 
 #nav-container h1{
     display: inline;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 #nav-bar{
@@ -53,6 +53,34 @@ hr{
     background-color:#202020;
     border: none;
     border-radius: 25px;
+}
+
+
+#menu-toggle {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%; /* Position it vertically in the middle of the header */
+    transform: translateY(-50%);
+    right: 24px; /* Adjust the distance from the right side */
+    font-size: 2rem; /* Adjust the font size to make it larger */
+    color: #202020; /* Text color of the hamburger icon */
+    background-color: white; /* Background color of the circle */
+    width: 40px; /* Width of the circle */
+    height: 40px; /* Height of the circle */
+    border-radius: 50%; /* Make it a circle */
+    text-align: center;
+    line-height: 40px; /* Vertically center the icon */
+    z-index: 999; /* Ensure it's above other elements */
+}
+
+#nav-container {
+    position: relative; /* Ensure relative positioning for absolute positioning of #menu-toggle */
+}
+
+#menu-toggle.active {
+    background-color: #202020; /* Change background color on active state */
+    color: white; /* Change text color on active state */
 }
 
 
