@@ -6,7 +6,6 @@ function refreshPage(){
 
 const menuToggle = document.getElementById('menu-toggle');
 const navBar = document.getElementById('nav-bar');
-const headers = document.getElementsByTagName('h1');
 
 // Add click event listener to the menu toggle button
 menuToggle.addEventListener('click', function() {
@@ -19,15 +18,12 @@ menuToggle.addEventListener('click', function() {
 
 // Function to check screen size and show/hide hamburger menu
 function checkScreenSize() {
-    const headerOriginalSize = "3rem";
     if (window.innerWidth <= 1200) {
         menuToggle.style.display = 'block';
         navBar.style.display = 'none';
-        headers.style.fontSize = "20px"
     } else {
         menuToggle.style.display = 'none';
         navBar.style.display = 'block';
-        headers.style.fontSize = headerOriginalSize;
     }
 }
 
