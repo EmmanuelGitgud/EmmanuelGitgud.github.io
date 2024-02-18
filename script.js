@@ -6,6 +6,7 @@ function refreshPage(){
 
 const menuToggle = document.getElementById('menu-toggle');
 const navBar = document.getElementById('nav-bar');
+const navLabel = document.getElementById('nav-label');
 
 // Add click event listener to the menu toggle button
 menuToggle.addEventListener('click', function() {
@@ -21,9 +22,11 @@ function checkScreenSize() {
     if (window.innerWidth <= 1200) {
         menuToggle.style.display = 'block';
         navBar.style.display = 'none';
+        navLabel.style.fontSize = '1.5rem';
     } else {
         menuToggle.style.display = 'none';
         navBar.style.display = 'block';
+        navLabel.style.fontSize = '2.5rem';
     }
 }
 
