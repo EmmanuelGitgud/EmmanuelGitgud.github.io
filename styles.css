@@ -36,15 +36,24 @@ nav a{
     padding: 0 30px;
     display: flex;
     align-items: center;
+    transition: ease-in-out .3S;
 }
 
 nav a:hover{
-    background-color: #252525;
+    background-color: #696969;
+    font-size: 2.5rem;
+    text-shadow: 10px 10px 1px rgb(54, 54, 54);
 }
 
 nav li:first-child{
     margin-right: auto;
     font-size: 4rem;
+}
+
+nav li:first-child a:hover{
+    background-color: #696969;
+    font-size: 4.5rem;
+    text-shadow: 10px 10px 1px rgb(54, 54, 54) ;
 }
 
 .sidebar{
@@ -71,20 +80,25 @@ nav li:first-child{
     display: none;
 }
 
-#main-content{
+#hamburger-nav{
+    display: none;
+}
+
+.banner{
     padding-top: 24px;
     margin: 0 24px;
     border-radius: 25px;
-    height: 770px;
+    height: auto;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: auto;
 }
-#main-content h1{
+.banner h1{
     color: #202020;
-    display: flex;
 }
+
 hr{
     width: 90%;
     margin: 24px;
@@ -92,6 +106,18 @@ hr{
     background-color:#202020;
     border: none;
     border-radius: 25px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.content svg{
+    max-height: 220px;
+    max-width: 220px;
+
 }
 
 @media(max-width: 1200px){
@@ -101,10 +127,20 @@ hr{
     .hideOnMobile{
         display: none;
     }
-}
-@media(min-width: 1201px){
     #hamburger-nav{
-        display: none;
+        display: block;
+    }
+
+    nav li:first-child a:hover{
+        background-color: #696969;
+        font-size: 3.5rem;
+        text-shadow: 10px 10px 1px rgb(54, 54, 54) ;
+    }
+}
+@media(max-width: 820px){
+    .content svg{
+        max-height: 100px;
+        max-width: 100px;
     }
 }
 
