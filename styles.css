@@ -1,6 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
+    min-height: 100vh;
     background-color: #202020;
-    list-style-type: none;
 }
 @font-face {
     font-family: Monocraft;
@@ -11,37 +16,64 @@ html{
     font-family: Monocraft;
 }
 
-#nav-container{
+nav ul{
+    list-style: none;
+    width: 100%;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 36px;
-   max-height: max-content;
 }
 
-#nav-container a{
-    list-style: none;
+nav li{
+    height: 100px;
+    font-size: 2rem;
+}
+
+nav a{
     text-decoration: none;
     color: #ffffff;
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
 }
 
-#nav-container h1{
-    font-size: 2.5rem;
+nav a:hover{
+    background-color: #252525;
 }
 
-#nav-bar{
-
+nav li:first-child{
+    margin-right: auto;
+    font-size: 4rem;
 }
 
-#nav-bar li{
-    list-style: none;
-    display: inline;
-    font-size: 2rem;
-    padding-left: 48px;
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 999;
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+
+.hide{
+    display: none;
 }
 
 #main-content{
-    margin: 24px;
+    padding-top: 24px;
+    margin: 0 24px;
     border-radius: 25px;
     height: 770px;
     background-color: white;
@@ -55,38 +87,24 @@ html{
 }
 hr{
     width: 90%;
+    margin: 24px;
     height: 10px;
     background-color:#202020;
     border: none;
     border-radius: 25px;
 }
 
-
-#menu-toggle {
-    display: none;
-    cursor: pointer;
-    position: absolute;
-    top: 50%; /* Position it vertically in the middle of the header */
-    transform: translateY(-50%);
-    right: 24px; /* Adjust the distance from the right side */
-    font-size: 2rem; /* Adjust the font size to make it larger */
-    color: #202020; /* Text color of the hamburger icon */
-    background-color: white; /* Background color of the circle */
-    width: 40px; /* Width of the circle */
-    height: 40px; /* Height of the circle */
-    border-radius: 50%; /* Make it a circle */
-    text-align: center;
-    line-height: 40px; /* Vertically center the icon */
-    z-index: 999; /* Ensure it's above other elements */
+@media(max-width: 1200px){
+    nav li:first-child{
+        font-size: 3rem;
+    }
+    .hideOnMobile{
+        display: none;
+    }
 }
-
-#nav-container {
-    position: relative; /* Ensure relative positioning for absolute positioning of #menu-toggle */
+@media(min-width: 1201px){
+    #hamburger-nav{
+        display: none;
+    }
 }
-
-#menu-toggle.active {
-    background-color: #202020; /* Change background color on active state */
-    color: white; /* Change text color on active state */
-}
-
 
