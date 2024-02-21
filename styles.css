@@ -90,12 +90,12 @@ nav li:first-child a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    background-image: url(resources/galaxy2.jpg);
+    background-image: url(resources/galaxy.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: 0.5 ease-in;
 }
 
 .landing-banner::before{
@@ -104,18 +104,70 @@ nav li:first-child a:hover{
     width: 100%;
     display: block;
     position: absolute;
-    background-color: #00000048;
+    background-color: #00000060;
 }
 
 .landing-banner h1{
     z-index: 1;
     font-size: 4rem;
+    text-align: center;
 }
 
 #box{
-    width: 100%;
-    height: 500px;
+    min-height: 90vh;
+    max-width: 90vw;
+    margin: 5vh 5vw;
+    border-style:groove;
+    border-color: white;
+    border-radius: 15px;
+}
+
+#box h1{
+    padding: 16px;
+    text-align: center;
+    font-size: 3rem;
+}
+#box h2{
+    padding: 10px;
+    flex: 1;
+}
+
+.box-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+    justify-content: center;
+}
+.box-wrapper #code{
+    min-width: fit-content;
+}
+.box-wrapper #description{
+    min-width: 600px;
+}
+.box-wrapper hr{
+    margin: 16px;
+}
+#button-wrapper{
+    border-color: #ffffff;
+    border-style: groove;
+    border-radius: 15px;
+    text-align: center;
+    height: max-content;
+    transition: ease-in-out .3S;
+}
+#button-wrapper a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: ease-in-out .3S;
+    padding: 16px;;
+    font-size: 2rem;
+}
+
+#button-wrapper:hover{
     background-color: white;
+}
+#button-wrapper a:hover{
+    color: #202020;
 }
 
 @media(max-width: 1200px){
@@ -128,15 +180,38 @@ nav li:first-child a:hover{
     #hamburger-nav{
         display: block;
     }
-
     nav li:first-child a:hover{
         background-color: #696969;
         font-size: 3.5rem;
         text-shadow: 10px 10px 1px rgb(54, 54, 54) ;
     }
     .landing-banner h1{
-        font-size: xx-large;
+        font-size: 3rem;
+        margin: auto;
+    }
+    hr{
+        width: 100%;
     }
 }
+
+@media (max-width: 746px) {
+    #box {
+      min-height: auto; /* Adjust as needed */
+    }
+    .box-wrapper #description {
+      min-width: auto;
+      max-width: 90vw; /* Adjust as needed */
+    }
+    #box h1{
+        font-size: 2rem;
+    }
+    .box-wrapper h2{
+        font-size: 1.2rem;
+    }
+    hr{
+        width: 100%;
+    }
+  }
+  
 
 
