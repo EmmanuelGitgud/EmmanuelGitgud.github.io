@@ -231,10 +231,16 @@ nav li:first-child a:hover{
         font-size: 2rem;
     }
     .box-wrapper h2{
-        font-size: 0.75rem;
+        font-size: 0.8rem;
     }
     hr{
         width: 100%;
+    }
+  }
+
+  @media (max-width: 385px){
+    .box-wrapper h2{
+        font-size: 0.7rem;
     }
   }
   
