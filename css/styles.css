@@ -9,7 +9,7 @@ body{
 }
 @font-face {
     font-family: Monocraft;
-    src: url(font/Monocraft.ttf);
+    src: url(../font/Monocraft.ttf);
 }
 html{
     color: #ffffff;
@@ -90,7 +90,7 @@ nav li:first-child a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(resources/galaxy.jpg);
+    background-image: url(../resources/galaxy.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -170,6 +170,31 @@ nav li:first-child a:hover{
     color: #202020;
 }
 
+#code .square-brackets{
+    color: #c5c800;
+}
+#code .string{
+    color: #ce915b;
+}
+#code .int{
+    color: #a7ce9b;
+}
+#code .variable{
+    color: #9cdcfe;
+}
+#code .outer-bracket{
+    color: #da70d6;
+}
+#code .inner-bracket{
+    color: #1e51db;
+}
+#code .main-variable{
+    color: #1e78db;
+}
+#code .variable-type{
+    color: #358cd6;
+}
+
 @media(max-width: 1200px){
     nav li:first-child{
         font-size: 3rem;
@@ -206,7 +231,7 @@ nav li:first-child a:hover{
         font-size: 2rem;
     }
     .box-wrapper h2{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     hr{
         width: 100%;
