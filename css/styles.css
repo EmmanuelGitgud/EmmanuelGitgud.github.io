@@ -7,6 +7,7 @@ body{
     min-height: 100vh;
     background-image: url(../resources/galaxy.jpg);
     background-attachment: fixed;
+    
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -17,6 +18,7 @@ body{
 html{
     color: #ffffff;
     font-family: Monocraft;
+    scroll-behavior: smooth;
 }
 nav{
     background-color: #202020;
@@ -261,7 +263,7 @@ nav li:first-child a:hover{
     }
     .box-wrapper #description {
       min-width: auto;
-      max-width: 90vw; /* Adjust as needed */
+      max-width: 85vw; /* Adjust as needed */
     }
     #box h1{
         font-size: 2rem;
@@ -281,7 +283,7 @@ nav li:first-child a:hover{
   }
   
   .container {
-    flex: 0 1 40vw;
+    flex: 0 1 30vw;
     margin: auto;
     padding: 10px;
   }
