@@ -499,7 +499,7 @@ nav li:first-child a:hover{
   
   @media screen and (max-width: 600px) {
     .screen-body {
-      padding: 40px;
+      padding: 12px;
     }
   
     .screen-body-item {
