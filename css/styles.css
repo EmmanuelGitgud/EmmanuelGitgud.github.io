@@ -5,7 +5,10 @@
 
 body{
     min-height: 100vh;
-    background-color: #202020;
+    background-image: url(../resources/galaxy.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 @font-face {
     font-family: Monocraft;
@@ -14,6 +17,9 @@ body{
 html{
     color: #ffffff;
     font-family: Monocraft;
+}
+nav{
+    background-color: #202020;
 }
 
 nav ul{
@@ -90,10 +96,6 @@ nav li:first-child a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../resources/galaxy.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
     transition: 0.5 ease-in;
 }
 
@@ -103,9 +105,6 @@ nav li:first-child a:hover{
     width: 100%;
     display: block;
     position: absolute;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-color: #00000060;
 }
 
@@ -122,6 +121,12 @@ nav li:first-child a:hover{
     border-style:groove;
     border-color: white;
     border-radius: 15px;
+    
+}
+#about-container{
+    background-color: #202020;
+    display: flex;
+    min-height: 100vh;
 }
 
 #box h1{
@@ -203,10 +208,6 @@ nav li:first-child a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../resources/galaxy.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
     transition: 0.5 ease-in;
 }
 
@@ -216,9 +217,6 @@ nav li:first-child a:hover{
     width: 100%;
     display: block;
     position: absolute;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-color: #00000060;
 }
 
@@ -292,7 +290,6 @@ nav li:first-child a:hover{
     position: relative;
     background: #3e3e3e;
     border-radius: 15px;
-    min-height: 50vh;
   }
   
   .screen:after {
@@ -306,7 +303,6 @@ nav li:first-child a:hover{
     border-radius: 15px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
     z-index: -1;
-    height: 70vh;
   }
   
   .screen-header {
