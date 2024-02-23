@@ -104,6 +104,10 @@ nav li:first-child a:hover{
     width: 100%;
     display: block;
     position: absolute;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #00000060;
 }
 
@@ -215,6 +219,10 @@ nav li:first-child a:hover{
     width: 100%;
     display: block;
     position: absolute;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #00000060;
 }
 
