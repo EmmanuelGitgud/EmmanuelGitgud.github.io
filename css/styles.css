@@ -478,6 +478,16 @@ nav li:first-child a:hover{
     }
   }
 
+  @media screen and (max-width: 1000px) {
+    .container{
+      width: 90%;
+    }
+    .screen-body {
+      padding: 18px;
+    }
+
+  }
+
   @media screen and (max-width: 1600px) {
 
       .screen-body {
