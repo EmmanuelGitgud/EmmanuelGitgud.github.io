@@ -6,6 +6,7 @@
     <title>Emmanuel Arabit</title>
     <link rel="icon" type="image/x-icon" href="icon/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="preload" href="resources/galaxy.jpg" as="image">
 </head>
 <body>
     <nav>
@@ -98,30 +99,28 @@
                                 <div class="app-contact"><b>Github:</b> github.com/EmmanuelGitgud</div>
                             </div>
                         </div>
-                        <div class="screen-body-item">
-                            <div class="app-form">
-                                <div class="app-form-group">
-                                    <input class="app-form-control" placeholder="NAME">
-                                </div>
-                                <div class="app-form-group">
-                                    <input class="app-form-control" placeholder="EMAIL">
-                                </div>
-                                <div class="app-form-group">
-                                    <input class="app-form-control" placeholder="CONTACT NO">
-                                </div>
-                                <div class="app-form-group message">
-                                    <input class="app-form-control" placeholder="MESSAGE">
-                                </div>
-                                <div class="app-form-group buttons">
-                                    <button class="app-form-button">CANCEL</button>
-                                    <button class="app-form-button">SEND</button>
-                                </div>
+                        <form class="screen-body-item app-form" netlify>
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="NAME" name="name">
                             </div>
-                        </div>
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="EMAIL" name="email">
+                            </div>
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="CONTACT NO" name="contact">
+                            </div>
+                            <div class="app-form-group message">
+                                <input class="app-form-control" placeholder="MESSAGE" name="message">
+                            </div>
+                            <div class="app-form-group buttons">
+                                <button type="button" class="app-form-button">CANCEL</button>
+                                <button type="submit" class="app-form-button">SEND</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>            
-    </div>
+        </div>
     <div class="footer">
         <p>Copyright &copy; EmmanArabit</p>
     </div>
