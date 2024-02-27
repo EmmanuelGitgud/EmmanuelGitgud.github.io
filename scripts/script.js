@@ -36,12 +36,18 @@ function toggleSidebar(){
     sidebar.classList.toggle("hide");
 }
 
-var typed = new Typed('#element', {
-    strings: [...typedStrings],
-    typeSpeed: 100,
-    backSpeed: 70,
-    loop: true,
-  });
+try{
+    var typed = new Typed('#element', {
+        strings: [...typedStrings],
+        typeSpeed: 100,
+        backSpeed: 70,
+        loop: true,
+      });
+}
+catch{
+    console.log("#element does not exist in the page");
+}
+
 
 hamburgerNav.addEventListener("click", toggleSidebar);
 closeNav.addEventListener("click", toggleSidebar);

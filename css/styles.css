@@ -10,8 +10,6 @@ body{
     
     background-size: cover;
     background-repeat: no-repeat;
-
-    overflow-x: hidden;
 }
 @font-face {
     font-family: Monocraft;
@@ -132,6 +130,25 @@ nav li:first-child a:hover{
     background-color: #202020;
     display: flex;
     min-height: 100vh;
+}
+
+.skills-container{
+  background-color:#3e3e3ece;
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 24px;
+  margin: 0px 24px;
+  width: auto;
+}
+
+.skills-container img{
+  max-width: 200px;
+  height: auto;
+  margin: 24px;
 }
 
 #box h1{
