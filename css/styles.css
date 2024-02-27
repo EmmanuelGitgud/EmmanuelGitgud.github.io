@@ -231,9 +231,14 @@ nav li:first-child a:hover{
     text-align: center;
 }
 
-/* .footer{
-    height: 10vh;
-} */
+.footer{
+    display: flex;
+    height: 5vh;
+    background-color: #202020;
+    justify-content: center;
+    align-items: center;
+
+}
 
 
 @media(max-width: 1200px){
@@ -284,7 +289,6 @@ nav li:first-child a:hover{
         font-size: 0.7rem;
     }
   }
-  
   
   .screen {
     position: relative;
@@ -442,6 +446,9 @@ nav li:first-child a:hover{
     .landing-banner h1{
       font-size: 2rem;
     }
+    #contact-wrapper{
+      padding-bottom: 0px;
+    }
 
     .screen-body {
       flex-direction: column;
@@ -450,6 +457,9 @@ nav li:first-child a:hover{
   
     .screen-body-item.left {
       margin-bottom: 30px;
+    }
+    .app-form-group input{
+      font-size: 0.7rem;
     }
   
     .app-title {
