@@ -1,0 +1,22 @@
+.banner-container{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container::before{
+    content: "";
+    height: 85vh;
+    width: 100%;
+    display: block;
+    position: absolute;
+    background-color: #00000060;
+}
+
+.banner-container h1{
+    z-index: 1;
+    font-size: 3rem;
+    text-align: center;
+    padding: 0 20px;
+}

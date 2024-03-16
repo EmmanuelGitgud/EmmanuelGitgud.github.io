@@ -1,0 +1,12 @@
+
+
+:root{
+    scroll-behavior: smooth;
+}
+
+html{
+    background-image: url(public/space-down.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
