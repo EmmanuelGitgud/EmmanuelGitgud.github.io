@@ -9,4 +9,5 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    transition: all 0.5s;
 }
