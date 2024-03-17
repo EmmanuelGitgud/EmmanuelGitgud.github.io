@@ -1,10 +1,22 @@
+import { useState } from 'react';
 import './Nav.css'
 
 function NavDesktop(){
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const handleCheckboxChange = () => {
+        setIsMenuOpen(!isMenuOpen);
+        if (!isMenuOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'auto';
+        }
+    };
+
     return(
         <>
             <nav>
-                <input type="checkbox" id="check"/>
+                <input type="checkbox" id="check" checked={isMenuOpen} onChange={handleCheckboxChange} />
                 <div className="top-wrapper">
                     <h1 id="logo"><a href="index.html">&lt;/&gt;</a></h1>
                     <label htmlFor="check" id="hamburger-nav">

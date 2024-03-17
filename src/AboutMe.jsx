@@ -33,7 +33,7 @@ function AboutMe(){
                 <hr/>
                 <div className='right-container'>
                     <h2 id="description">
-                    As a recent graduate with a passion for coding, I spend my time crafting innovative solutions and delving into various programming projects. When I'm not immersed in code, you can often find me enjoying the company of my feline friends or savoring a cup of coffee.                    </h2>
+                    As a recent graduate with a passion for coding, I spend my time making apps and delving into various programming projects. When I'm not immersed in code, you can often find me enjoying the company of my feline friends or savoring a cup of coffee.                    </h2>
                 </div>
                 </div>
                 <div className='box-wrapper'>
