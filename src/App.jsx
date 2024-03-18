@@ -6,6 +6,7 @@ import AboutMe from './AboutMe.jsx'
 import MySkills from './Skills.jsx'
 import MyProjects from './Projects.jsx'
 import ContactMe from './Contact.jsx'
+import StagingPage from './Staging.jsx'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App(){
@@ -20,6 +21,7 @@ function App(){
                 </>
             }/>
             <Route path='/skills' element={<MySkills />}/>
+            <Route path='/staging' element={<StagingPage />}/>
         </Routes>
         <Footer />
     </Router>

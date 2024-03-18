@@ -32,16 +32,16 @@ function NavDesktop() {
                     <ul className='hide-on-mobile'>
                         <li className="nav-item"><Link to="/" onClick={changePage}>Home</Link></li>
                         <li className="nav-item"><Link to="/skills" onClick={changePage}>Skills</Link></li>
-                        <li className="nav-item"><a href="projects.html" onClick={changePage}>Projects</a></li>
-                        <li className="nav-item"><a href="about.html" onClick={changePage}>About</a></li>
+                        <li className="nav-item"><Link to="/staging" onClick={changePage}>Projects</Link></li>
+                        <li className="nav-item"><Link to="/staging" onClick={changePage}>About</Link></li>
                     </ul>
                 </div>
                 <div className="bottom-wrapper">
                     <ul>
                         <li className="nav-item"><Link to="/" onClick={changePage}>Home</Link></li>
                         <li className="nav-item"><Link to="/skills" onClick={changePage}>Skills</Link></li>
-                        <li className="nav-item"><a href="projects.html" onClick={changePage}>Projects</a></li>
-                        <li className="nav-item"><a href="about.html" onClick={changePage}>About</a></li>
+                        <li className="nav-item"><Link to="/staging" onClick={changePage}>Projects</Link></li>
+                        <li className="nav-item"><Link to="/staging" onClick={changePage}>About</Link></li>
                     </ul>
                 </div>
             </nav>
