@@ -1,4 +1,4 @@
-.wrapper{
+/* .wrapper{
     display: flex;
     align-items: center;
     min-height: 100vh;
@@ -49,4 +49,120 @@
     padding: 24px;
     width: 140px;
     height: 140px;
+} */
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 24px;
+}
+
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    padding: 0px 24px;
+    background: rgba(255, 255, 255, 0.069);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(12.4px);
+}
+.description-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-wrapper hr{
+    background-color: white;
+    width: 100%;
+    height: 2px;
+    border-radius: 15px;
+    margin: 24px;
+}
+
+.description-wrapper h1{
+    font-size: 2.5rem;
+}
+
+.description-wrapper h2{
+    padding-bottom: 12px;
+    font-size: .8rem;
+}
+
+.skills-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-wrapper img{
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (min-width: 870px){
+    .wrapper{
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+        padding: 100px;
+    }
+
+    .skills-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: max-content;
+        padding: 0px 150px;
+
+        background: rgba(255, 255, 255, 0.069);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(11px);
+        -webkit-backdrop-filter: blur(12.4px);
+    }
+
+    .skills-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .description-wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-style: solid;
+        border-radius: 15px;
+        padding:24px;
+        margin:24px
+    }
+
+    .description-wrapper h1{
+        font-size: 3rem;
+        padding-bottom: 12px;
+    }
+
+    .description-wrapper h2{
+        font-size: 1.3rem;
+        padding-bottom: 12px;
+    }
+
+    .description-wrapper hr{
+        width: 100%;
+        height: 2px;
+    }
+
+    .skills-wrapper img{
+        padding: 24px;
+        width: 140px;
+        height: 140px;
+    }
 }
