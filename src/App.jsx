@@ -21,6 +21,7 @@ function App(){
                 </>
             }/>
             <Route path='/skills' element={<MySkills />}/>
+            <Route path='/projects' element={<MyProjects />}/>
             <Route path='/staging' element={<StagingPage />}/>
         </Routes>
         <Footer />
