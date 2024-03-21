@@ -9,10 +9,16 @@ html{
 }
 
 body{
-    background-image: url(public/space-down.png);
+    background-image: url(space-mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     transition: all 0.5s;
     height: 100lvh;
+}
+
+@media screen and (min-width: 800px){
+    body{
+        background-image: url(space-down.png);
+    }
 }
