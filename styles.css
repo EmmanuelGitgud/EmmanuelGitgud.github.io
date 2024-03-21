@@ -5,9 +5,14 @@
 }
 
 html{
+
+}
+
+body{
     background-image: url(public/space-down.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     transition: all 0.5s;
+    height: 100lvh;
 }
