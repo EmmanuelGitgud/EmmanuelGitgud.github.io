@@ -1,4 +1,5 @@
 import './AboutMe.css'
+import { Link } from 'react-router-dom'
 
 function AboutMe(){
     return(
@@ -38,7 +39,7 @@ function AboutMe(){
                 </div>
                 <div className='box-wrapper'>
                     <div id="button-wrapper">
-                        <a href="#">Contact Me</a>
+                        <Link to='/contact'>Contact Me</Link>
                     </div>
                 </div>
             </div>

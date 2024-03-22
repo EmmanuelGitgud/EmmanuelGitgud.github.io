@@ -33,7 +33,7 @@ function NavDesktop() {
                         <li className="nav-item"><Link to="/" onClick={changePage}>Home</Link></li>
                         <li className="nav-item"><Link to="/skills" onClick={changePage}>Skills</Link></li>
                         <li className="nav-item"><Link to="/projects" onClick={changePage}>Projects</Link></li>
-                        <li className="nav-item"><Link to="/staging" onClick={changePage}>Contact</Link></li>
+                        <li className="nav-item"><Link to="/contact" onClick={changePage}>Contact</Link></li>
                     </ul>
                 </div>
                 <div className="bottom-wrapper">
@@ -41,7 +41,7 @@ function NavDesktop() {
                         <li className="nav-item"><Link to="/" onClick={changePage}>Home</Link></li>
                         <li className="nav-item"><Link to="/skills" onClick={changePage}>Skills</Link></li>
                         <li className="nav-item"><Link to="/projects" onClick={changePage}>Projects</Link></li>
-                        <li className="nav-item"><Link to="/staging" onClick={changePage}>Contact</Link></li>
+                        <li className="nav-item"><Link to="/contact" onClick={changePage}>Contact</Link></li>
                     </ul>
                 </div>
             </nav>

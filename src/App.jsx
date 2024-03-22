@@ -22,6 +22,7 @@ function App(){
             }/>
             <Route path='/skills' element={<MySkills />}/>
             <Route path='/projects' element={<MyProjects />}/>
+            <Route path='/contact' element={<ContactMe />}/>
             <Route path='/staging' element={<StagingPage />}/>
         </Routes>
         <Footer />
