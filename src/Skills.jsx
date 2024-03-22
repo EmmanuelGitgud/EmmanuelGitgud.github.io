@@ -6,18 +6,18 @@ function MySkills(){
         <div className='wrapper'>
             <div className='skills-container'>
                 <div className='skills-wrapper'>
-                    <img src="html-5.png" alt="html"/>
-                    <img src="css-3.png" alt="html"/>
-                    <img src="js.png" alt="html"/>
-                    <img src="php.png" alt="html"/>
-                    <img src="mysql.png" alt="html"/>
-                    <img src="science.png" alt="html"/>
-                    <img src="git.png" alt="html"/>
-                    <img src="code.png" alt="html"/>
-                    <img src="wordpress.png" alt="html"/>
-                    <img src="python.png" alt="html"/>
-                    <img src="c-sharp.png" alt="html"/>
-                    <img src="unity.png" alt="html"/>
+                    <img src="html-5.webp" alt="html"/>
+                    <img src="css-3.webp" alt="html"/>
+                    <img src="js.webp" alt="html"/>
+                    <img src="php.webp" alt="html"/>
+                    <img src="mysql.webp" alt="html"/>
+                    <img src="science.webp" alt="html"/>
+                    <img src="git.webp" alt="html"/>
+                    <img src="code.webp" alt="html"/>
+                    <img src="wordpress.webp" alt="html"/>
+                    <img src="python.webp" alt="html"/>
+                    <img src="c-sharp.webp" alt="html"/>
+                    <img src="unity.webp" alt="html"/>
                 </div>
             </div>
             <div className='description-wrapper'>

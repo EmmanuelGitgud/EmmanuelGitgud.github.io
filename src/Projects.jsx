@@ -9,19 +9,19 @@ function MySkills(){
                 <h1>Check out some of my works.</h1>
             </div>
             <div className='tile-container'>
-                <Tiles src="sharp.jpg" name="Sharp Travel Service"
+                <Tiles src="sharp.webp" name="Sharp Travel Service"
                 description="Lorem Ipsum Dolor"/>
 
-                <Tiles src="dm.jpeg" name="Downtown Wellness and Weightloss"
+                <Tiles src="dm.webp" name="Downtown Wellness and Weightloss"
                 description="Lorem Ipsum Dolor"/>
 
-                <Tiles src="zom1.png" name="Mind Over Zombie"
+                <Tiles src="zom1.webp" name="Mind Over Zombie"
                 description="Lorem Ipsum Dolor"/>
 
-                <Tiles src="ralf.png" name="Adventures of Ralf"
+                <Tiles src="ralf.webp" name="Adventures of Ralf"
                 description="Lorem Ipsum Dolor"/>
 
-                <Tiles src="spaceshooter.png" name="2D Spaceshooter"
+                <Tiles src="spaceshooter.webp" name="2D Spaceshooter"
                 description="Lorem Ipsum Dolor"/>
             </div>   
         </div>
