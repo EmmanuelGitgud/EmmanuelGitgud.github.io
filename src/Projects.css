@@ -6,9 +6,35 @@
 
 .tile-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     min-height: 80svh;
+}
+
+.project-banner{
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+
+    .tile-container{
+        flex-direction: row;
+    }
+    .project-wrapper{
+        flex-direction: row;
+        background: linear-gradient(to right, #202020, #20202000);
+    }
+    .project-banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        padding-left: 80px;
+    }
+    .tile-container{
+        align-items: center;
+        justify-content: space-evenly;
+    }
 }
