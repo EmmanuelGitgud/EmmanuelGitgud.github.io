@@ -14,11 +14,15 @@
   flex-direction: column;
 }
 
-.contact-banner, .form-wrapper, .contact-info{
-  margin: 20px;
+.contact-banner, .form-wrapper{
+  padding: 0 40px;
+}
+.contact-info{
+  padding: 0 40px;
+  margin-bottom: 10px;
 }
 .contact-info h2{
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 .contact-info a{
   color: white;
@@ -33,14 +37,41 @@
   font-size: 16px;
 }
 
+
+
 textarea{
   resize: none;
 }
 
 /* Optional: Make form inputs responsive */
 @media screen and (min-width: 601px) {
+  .contact-wrapper{
+    padding: 50px;
+  }
+  .contact-banner-container{
+    display: flex;
+    min-height: 50svh;
+    align-items: center;
+    justify-content: center;
+  }
   .form-wrapper{
     width: 600px;
+  }
+  .contact-info{
+    padding-bottom: 15px;
+  }
+  .contact-info h2{
+    font-size: 1.5rem;
+  }
+
+  .form-container{
+    background: rgba(0, 0, 0, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(7.2px);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 40px 0;
   }
   
 }

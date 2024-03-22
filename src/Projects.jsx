@@ -4,7 +4,10 @@ import Tiles from './common/ProjectsTile'
 function MySkills(){
     return(
         <>
-        <div className='wrapper'>
+        <div className='project-wrapper'>
+            <div className='project-banner'>
+                <h1>Check out some of my projects.</h1>
+            </div>
             <div className='tile-container'>
                 <Tiles src="sharp.jpg" name="Sharp Travel Service"
                 description="Lorem Ipsum Dolor"/>

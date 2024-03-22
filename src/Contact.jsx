@@ -4,9 +4,11 @@ import { Link } from 'react-router-dom'
 function ContactMe(){
     return(
         <>
-           <div className='contact-wrapper'>       
-           <h1 className='contact-banner'>Looking forward to hearing from you!</h1>   
-                <div>
+           <div className='contact-wrapper'>
+            <div className='contact-banner-container'>
+                <h1 className='contact-banner'>Looking forward to hearing from you!</h1>   
+            </div>       
+                <div className='form-container'>
                     <div className='contact-info'>
                         <h2>Number: +639560986716</h2>
                         <h2>Email: contact@emmanarabit.online</h2>   

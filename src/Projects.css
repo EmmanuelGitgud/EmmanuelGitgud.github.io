@@ -1,3 +1,6 @@
+.project-wrapper{
+    display: flex;
+}
 .tile-container{
     display: flex;
     flex-direction: row;
@@ -7,4 +10,17 @@
     min-height: 80svh;
     padding: 25px;
 }
+.project-banner{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #202020;
+    padding-left: 40px;
+    background: linear-gradient(to right, #202020, #20202025);
+}
 
+@media screen and (min-width: 1000px){
+    .project-banner{
+        display: flex;
+    }
+}
