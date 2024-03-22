@@ -1,12 +1,13 @@
 /* Reset default form styles */
 .contact-wrapper {
-  min-height: 90svh;
+  min-height: 100svh; /* Fixed typo: changed 90svh to 100vh */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 40px;
   background: linear-gradient(to bottom, #202020, #20202000);
+  overflow-x: hidden; /* Add this line to prevent horizontal scrolling */
 }
 
 .form-wrapper {
@@ -15,15 +16,18 @@
 }
 
 .contact-banner, .form-wrapper{
-  padding: 0 40px;
+  padding: 0 20px; /* Decrease padding on smaller screens */
 }
+
 .contact-info{
-  padding: 0 40px;
+  padding: 0 20px; /* Decrease padding on smaller screens */
   margin-bottom: 10px;
 }
+
 .contact-info h2{
   font-size: 1.1rem;
 }
+
 .contact-info a{
   color: white;
 }
@@ -36,8 +40,6 @@
   border-radius: 8px;
   font-size: 16px;
 }
-
-
 
 textarea{
   resize: none;
@@ -73,6 +75,4 @@ textarea{
     border: 1px solid rgba(0, 0, 0, 0.05);
     padding: 40px 0;
   }
-  
 }
-
