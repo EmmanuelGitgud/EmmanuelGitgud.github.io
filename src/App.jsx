@@ -24,6 +24,7 @@ function App(){
             <Route path='/projects' element={<MyProjects />}/>
             <Route path='/contact' element={<ContactMe />}/>
             <Route path='/staging' element={<StagingPage />}/>
+            <Route path=''></Route>
         </Routes>
         <Footer />
     </Router>

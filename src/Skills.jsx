@@ -24,8 +24,7 @@ function MySkills(){
                     <h1>&lt;My Skills/&gt;</h1>
                     <hr/>
                     <h2>
-                    My skill set encompasses a diverse range of both front-end and back-end frameworks and technologies, allowing me to develop comprehensive solutions across various platforms. With proficiency in HTML5, CSS3, and JavaScript, I specialize in crafting visually appealing and responsive user interfaces. On the back end, I excel in languages such as PHP and Python, leveraging them alongside databases like MySQL to create robust and efficient server-side functionality. Additionally, I'm well-versed in version control systems like Git, ensuring seamless collaboration and code management. My expertise extends to content management systems such as WordPress, where I adeptly customize and extend functionality to meet clients' specific needs. Furthermore, my experience with programming languages like C# and frameworks like Unity enables me to explore the realm of game development, adding a creative dimension to my skill set. Overall, my skills empower me to build dynamic and innovative solutions that address complex challenges and deliver exceptional user experiences.
-                    </h2>
+                    I have a wide range of skills covering both front-end and back-end development, allowing me to create solutions for various platforms. I'm great with HTML5, CSS3, and JavaScript, making eye-catching and responsive interfaces. On the backend, I rock PHP and Python, working with databases like MySQL for strong server-side functionality. I'm also handy with Git for smooth collaboration and code management. I'm skilled in WordPress customization too, tailoring it to clients' needs. Plus, I dabble in game development using C# and Unity for some creative fun. Overall, I love tackling challenges and creating awesome user experiences.                    </h2>
             </div>
         </div>
         </>

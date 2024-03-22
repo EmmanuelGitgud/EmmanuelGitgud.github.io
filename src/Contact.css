@@ -3,7 +3,9 @@
   min-height: 90svh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
   background: linear-gradient(to bottom, #202020, #20202000);
 }
 
@@ -12,8 +14,14 @@
   flex-direction: column;
 }
 
-.contact-banner, .form-wrapper{
+.contact-banner, .form-wrapper, .contact-info{
   margin: 20px;
+}
+.contact-info h2{
+  font-size: 1.3rem;
+}
+.contact-info a{
+  color: white;
 }
 
 .form-wrapper input,
@@ -31,9 +39,9 @@ textarea{
 
 /* Optional: Make form inputs responsive */
 @media screen and (min-width: 601px) {
-  .form-wrapper input,
-  .form-wrapper textarea,
-  .form-wrapper button {
-  
+  .form-wrapper{
+    width: 600px;
   }
+  
 }
+

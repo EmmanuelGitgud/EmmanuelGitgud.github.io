@@ -49,14 +49,31 @@
 
 .skills-wrapper img{
     padding: 15px;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
+}
+@media screen and (min-width: 500px){
+    .skills-wrapper img{
+        padding: 24px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .description-wrapper h1{
+        font-size: 3rem;
+    }
+
+    .description-wrapper h2{
+        font-size: 1.2rem;
+        margin: 0 24px;
+    }
 }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 600px){
     .wrapper{
         display: flex;
         align-items: center;
+        min-height: 80svh;
     }
 
     .skills-container{
@@ -96,8 +113,8 @@
 
     .skills-wrapper img{
         padding: 24px;
-        width: 140px;
-        height: 140px;
+        width: 120px;
+        height: 120px;
     }
 }
 
@@ -135,6 +152,66 @@
     .description-wrapper h2{
         font-size: 1.3rem;
         margin: 0 80px;
+    }
+
+    .description-wrapper hr{
+        width: 90%;
+        height: 2px;
+    }
+
+    .skills-wrapper img{
+        padding: 24px;
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media screen and (min-width: 1500px){
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-evenly;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .skills-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .skills-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .skills-container, .description-wrapper{
+        margin: 40px;
+    }
+
+    .description-wrapper{
+        padding: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #202020;
+        border-radius: 15px;
+    }
+
+    .description-wrapper h1{
+        font-size: 3rem;
+    }
+
+    .description-wrapper h2{
+        font-size: 1.3rem;
+        margin: 0 20px;
     }
 
     .description-wrapper hr{
