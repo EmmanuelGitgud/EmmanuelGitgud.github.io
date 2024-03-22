@@ -1,5 +1,5 @@
 import './Contact.css'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 function ContactMe(){
     let navigate = useNavigate();
