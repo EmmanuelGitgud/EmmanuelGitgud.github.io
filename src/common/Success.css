@@ -1,0 +1,24 @@
+.success-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80svh;
+    background-color: #20202052;
+}
+
+.success-container h1{
+ font-size: 2.5rem;
+}
+.success-container h2{
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 1000px) {
+    .success-container h1{
+        font-size: 4rem;
+       }
+       .success-container h2{
+           font-size: 2rem;
+       }
+}

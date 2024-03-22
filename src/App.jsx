@@ -7,6 +7,7 @@ import MySkills from './Skills.jsx'
 import MyProjects from './Projects.jsx'
 import ContactMe from './Contact.jsx'
 import StagingPage from './Staging.jsx'
+import SuccessPage from './common/Success.jsx'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App(){
@@ -24,7 +25,7 @@ function App(){
             <Route path='/projects' element={<MyProjects />}/>
             <Route path='/contact' element={<ContactMe />}/>
             <Route path='/staging' element={<StagingPage />}/>
-            <Route path=''></Route>
+            <Route path='/success' element={<SuccessPage />}/>
         </Routes>
         <Footer />
     </Router>

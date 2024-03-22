@@ -14,7 +14,7 @@ function ContactMe(){
                         <h2>Email: contact@emmanarabit.online</h2>   
                         <h2>Github: <a href="https://github.com/EmmanuelGitgud" target='_blank'>EmmanuelGitgud</a></h2>
                     </div>
-                    <form className='form-wrapper' name='contact' method='post' netlify>
+                    <form className='form-wrapper' action='/success' name='contact' method='post' netlify>
                         <input type="hidden" name="form-name" value="contact" />
                         <input type="text" name='name' placeholder='Name' required/>
                         <input type="email" name='email' placeholder='Email' required/>
