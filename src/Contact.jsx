@@ -2,6 +2,21 @@ import './Contact.css'
 import { Link } from 'react-router-dom'
 
 function ContactMe(){
+    let navigate = useNavigate();
+
+    const submitHandler = (e) => {
+        e.preventDefault();
+        let myForm = document.getElementById("contact-form");
+        let formData = new FormData(myForm);
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: new URLSearchParams(formData).toString(),
+        })
+        .then(() => navigate('/success'))
+        .catch((error) => alert(error));
+    }
+
     return(
         <>
            <div className='contact-wrapper'>
@@ -14,7 +29,7 @@ function ContactMe(){
                         <h2>Email: contact@emmanarabit.online</h2>   
                         <h2>Github: <a href="https://github.com/EmmanuelGitgud" target='_blank'>EmmanuelGitgud</a></h2>
                     </div>
-                    <form className='form-wrapper' action='/success' name='contact' method='post' netlify>
+                    <form id='contact-form' className='form-wrapper'onSubmit={submitHandler}>
                         <input type="hidden" name="form-name" value="contact" />
                         <input type="text" name='name' placeholder='Name' required/>
                         <input type="email" name='email' placeholder='Email' required/>
